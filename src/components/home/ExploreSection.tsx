@@ -59,7 +59,7 @@ export function ExploreSection() {
               <Link href="/explore/notable-residents" className="group relative block rounded-[3px] overflow-hidden h-full">
                 <div className="relative h-64 lg:h-full min-h-[240px]">
                   <Image
-                    src="https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=1200&q=80"
+                    src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=1200&q=80"
                     alt="Historic stone monuments at Mount Auburn Cemetery"
                     fill
                     sizes="(max-width: 1024px) 100vw, 40vw"
@@ -125,7 +125,7 @@ export function ExploreSection() {
             },
             {
               href: '/explore/bloom',
-              image: 'https://images.unsplash.com/photo-1490750967868-88df5691cc29?auto=format&fit=crop&w=800&q=80',
+              image: 'https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=800&q=80',
               label: 'Horticulture',
               title: "What's in Bloom",
               desc: 'Weekly updates on the arboretum\'s seasonal highlights, from spring magnolias to autumn maples.',

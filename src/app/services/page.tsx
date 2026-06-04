@@ -25,7 +25,7 @@ const services = [
       'Permanent endowment care',
       'Deed and records management',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=1200&q=80',
   },
   {
     id: 'cremation',

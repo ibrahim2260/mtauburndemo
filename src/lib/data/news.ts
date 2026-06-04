@@ -38,7 +38,7 @@ Features include six professionally narrated audio tours (including "Notable Res
     date: '2026-02-20',
     excerpt:
       'The Mount Auburn Cemetery 2025 Annual Report highlights a record year for public programming, continued progress on the landscape master plan, and the impact of Friends membership support.',
-    imageUrl: 'https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=1600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=1600&q=80',
     category: 'News',
     body: `We are pleased to share the Mount Auburn Cemetery 2025 Annual Report, which reflects on a year of significant achievement in our mission to preserve and interpret this National Historic Landmark.
 

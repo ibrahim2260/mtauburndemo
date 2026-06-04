@@ -203,7 +203,7 @@ export default function LocatePage() {
       {/* Hero */}
       <section className="relative h-[45vh] min-h-[340px]">
         <Image
-          src="https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=2400&q=80"
+          src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=2400&q=80"
           alt="Stone memorial at Mount Auburn Cemetery"
           fill
           priority

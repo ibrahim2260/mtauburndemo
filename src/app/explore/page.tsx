@@ -31,7 +31,7 @@ const exploreCards = [
   },
   {
     href: '/explore/notable-residents',
-    imageUrl: 'https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=1200&q=80',
     imageAlt: 'Stone memorial at Mount Auburn Cemetery',
     label: 'History',
     title: 'Notable Residents',
@@ -49,7 +49,7 @@ const exploreCards = [
   },
   {
     href: '/explore/bloom',
-    imageUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc29?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=1200&q=80',
     imageAlt: 'Spring blossoms in the cemetery garden',
     label: 'Horticulture',
     title: "What's in Bloom",

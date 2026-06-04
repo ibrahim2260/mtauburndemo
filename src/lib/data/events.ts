@@ -33,7 +33,7 @@ export const events: Event[] = [
     category: 'Ceremony',
     description:
       'Mount Auburn honors the memory of those who served with a dignified Memorial Day observance. Join us at Story Chapel for a program of reflection, music, and readings, followed by a wreath-laying at the veterans sections.',
-    imageUrl: 'https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=1600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=1600&q=80',
     registrationUrl: '/events/memorial-day-2026',
     isFeatured: true,
   },

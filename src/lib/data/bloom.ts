@@ -9,7 +9,7 @@ export const bloomItems: BloomItem[] = [
     season: 'Spring',
     description:
       'One of Massachusetts\'s most spectacular native shrubs, the mountain laurel produces intricate pink-and-white flower clusters in late May and June. The Willow Pond planting is among the oldest in the collection, dating to the 1840s.',
-    imageUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc29?auto=format&fit=crop&w=1600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=1600&q=80',
     weekUpdated: '2026-05-31',
   },
   {
@@ -64,7 +64,7 @@ export const bloomItems: BloomItem[] = [
     season: 'Spring',
     description:
       'The Sweet Bay Magnolia in the Birch Garden opens its creamy-white, lemon-scented flowers throughout late spring and early summer. Semi-evergreen, this native magnolia is one of the last spring bloomers and bridges the season into summer.',
-    imageUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc29?auto=format&fit=crop&w=1600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=1600&q=80',
     weekUpdated: '2026-05-31',
   },
 ]

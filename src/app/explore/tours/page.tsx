@@ -32,7 +32,7 @@ const tours = [
     description:
       'Visit the monuments of Longfellow, Eddy, Fuller, Homer, and more on this curated walk through 200 years of American history, letters, and achievement.',
     highlights: ["Mary Baker Eddy's lakeside monument", 'Longfellow family plot', 'Washington Tower', 'Bulfinch and Sumner memorials'],
-    imageUrl: 'https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=1200&q=80',
   },
   {
     id: 'landscape',
@@ -65,7 +65,7 @@ const tours = [
     description:
       'A seasonal walk updated weekly to highlight the current peak bloom in the collection. In May, follow the cherry blossoms; in June, the mountain laurel and snowbells; in October, the autumn foliage.',
     highlights: ['Current seasonal highlights', 'Updated weekly', 'Family-friendly route', 'Suitable for all mobility levels'],
-    imageUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc29?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=1200&q=80',
   },
   {
     id: 'photography',

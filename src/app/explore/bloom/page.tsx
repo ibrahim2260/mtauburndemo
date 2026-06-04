@@ -17,7 +17,7 @@ export default function BloomPage() {
       {/* Hero */}
       <section className="relative h-[55vh] min-h-[400px]">
         <Image
-          src="https://images.unsplash.com/photo-1490750967868-88df5691cc29?auto=format&fit=crop&w=2400&q=80"
+          src="https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=2400&q=80"
           alt="Spring blossoms in Mount Auburn's arboretum"
           fill
           priority

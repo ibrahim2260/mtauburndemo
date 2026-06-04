@@ -16,7 +16,7 @@ const notableResidents = [
     dates: '1821–1910',
     profession: 'Founder of Christian Science',
     description: 'The founder of the Church of Christ, Scientist and author of Science and Health with Key to the Scriptures. Her lakeside monument at Halcyon is among the most visited in the cemetery.',
-    imageUrl: 'https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=600&q=80',
   },
   {
     id: 'buckminster-fuller',
@@ -48,7 +48,7 @@ const notableResidents = [
     dates: '1840–1924',
     profession: 'Art Patron & Museum Founder',
     description: 'Founder of the Isabella Stewart Gardner Museum in Boston — one of the great personal art collections in America, housed in her Venetian palace in the Fenway.',
-    imageUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc29?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=600&q=80',
   },
   {
     id: 'charles-bulfinch',
@@ -82,7 +82,7 @@ export default function NotableResidentsPage() {
       {/* Hero */}
       <section className="relative h-[55vh] min-h-[400px]">
         <Image
-          src="https://images.unsplash.com/photo-1568092562784-15d1d0c68e5c?auto=format&fit=crop&w=2400&q=80"
+          src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=2400&q=80"
           alt="Historic monuments at Mount Auburn Cemetery"
           fill
           priority
