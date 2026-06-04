@@ -3,10 +3,10 @@ import type { StaffMember } from '@/lib/types'
 export const staff: StaffMember[] = [
   {
     id: 'staff-001',
-    name: 'Dr. Lynne Harrison',
+    name: 'Matthew Stephens',
     title: 'President & CEO',
-    imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80',
-    bio: 'Dr. Harrison has led Mount Auburn Cemetery since 2014, overseeing major restoration initiatives, expanded public programming, and the development of the Cemetery\'s long-range master plan. She holds a doctorate in landscape history from Harvard University.',
+    imageUrl: '/staff-matthew-stephens.jpg',
+    bio: 'As President & CEO of Mount Auburn Cemetery, Matthew is honored to lead one of America\'s most iconic cultural landscapes — where history, horticulture, and the humanities converge. Mount Auburn is more than a cemetery: it\'s a place of memory, meaning, and modern relevance.',
   },
   {
     id: 'staff-002',
