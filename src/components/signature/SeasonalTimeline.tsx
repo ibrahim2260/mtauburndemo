@@ -50,7 +50,7 @@ const seasons: Record<Season, SeasonData> = {
 const seasonOrder: Season[] = ['spring', 'summer', 'autumn', 'winter']
 
 export function SeasonalHero() {
-  const [activeSeason, setActiveSeason] = useState<Season>('autumn')
+  const [activeSeason, setActiveSeason] = useState<Season>('spring')
 
   const data = seasons[activeSeason]
 
@@ -69,7 +69,7 @@ export function SeasonalHero() {
             src={seasons[season].image}
             alt={`Mount Auburn Cemetery in ${season}`}
             fill
-            priority={season === 'autumn' || season === 'spring'}
+            priority={season === 'spring'}
             sizes="100vw"
             style={{ objectFit: 'cover', objectPosition: seasons[season].objectPosition ?? 'center' }}
             className={season === activeSeason ? 'scale-animation' : ''}
