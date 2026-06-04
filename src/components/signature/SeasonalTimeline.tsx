@@ -12,15 +12,17 @@ interface SeasonData {
   headline: string
   subline: string
   accent: string
+  objectPosition?: string
 }
 
 const seasons: Record<Season, SeasonData> = {
   spring: {
     label: 'Spring',
-    image: 'https://images.unsplash.com/photo-1490750967868-88df5691cc29?auto=format&fit=crop&w=2400&q=80',
+    image: '/spring-chapel.jpg',
     headline: 'A landscape awakening in color and birdsong',
     subline: 'Spring at Mount Auburn brings extraordinary cherry blossoms, migrating warblers, and the first flush of the arboretum&rsquo;s extraordinary botanical collection.',
-    accent: 'text-[#e8c4d4]',
+    accent: 'text-[#e8d5b8]',
+    objectPosition: 'center 40%',
   },
   summer: {
     label: 'Summer',
@@ -67,9 +69,9 @@ export function SeasonalHero() {
             src={seasons[season].image}
             alt={`Mount Auburn Cemetery in ${season}`}
             fill
-            priority={season === 'autumn'}
+            priority={season === 'autumn' || season === 'spring'}
             sizes="100vw"
-            style={{ objectFit: 'cover', objectPosition: 'center' }}
+            style={{ objectFit: 'cover', objectPosition: seasons[season].objectPosition ?? 'center' }}
             className={season === activeSeason ? 'scale-animation' : ''}
           />
         </motion.div>
