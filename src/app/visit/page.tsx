@@ -148,24 +148,19 @@ export default function VisitPage() {
               </div>
             </div>
 
-            {/* Map placeholder */}
+            {/* Map embed */}
             <ScrollReveal delay={0.2}>
-              <div className="bg-stone/10 rounded-[3px] overflow-hidden aspect-square lg:aspect-auto lg:h-[500px] flex items-center justify-center border border-stone/20">
-                <div className="text-center p-8">
-                  <MapPin size={40} className="text-stone/40 mx-auto mb-4" />
-                  <p className="text-stone text-sm">
-                    Interactive map available at Welcome Center<br />
-                    580 Mount Auburn Street, Cambridge, MA
-                  </p>
-                  <a
-                    href="https://maps.google.com/?q=580+Mount+Auburn+Street+Cambridge+MA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 inline-block text-sm text-brass hover:underline"
-                  >
-                    View in Google Maps →
-                  </a>
-                </div>
+              <div className="rounded-[3px] overflow-hidden border border-stone/20 shadow-sm w-full h-[420px] lg:h-[520px]">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.4819680836617!2d-71.14707172388994!3d42.37487817119151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3777876b110a3%3A0xee76deef62bead3f!2s580%20Mt%20Auburn%20St%2C%20Cambridge%2C%20MA%2002138!5e0!3m2!1sen!2sus!4v1780674993784!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, display: 'block' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Mount Auburn Cemetery — 580 Mount Auburn Street, Cambridge, MA"
+                />
               </div>
             </ScrollReveal>
           </div>
