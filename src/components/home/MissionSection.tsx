@@ -68,14 +68,12 @@ export function MissionSection() {
           <ScrollReveal delay={0.15} className="relative lg:h-full min-h-[480px] lg:min-h-[700px]">
             <div className="relative h-full w-full">
               <Image
-                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=90"
-                alt="Sunlight filtering through the forest canopy at Mount Auburn Cemetery"
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1600&q=80"
+                alt="Botanical garden landscape at Mount Auburn Cemetery"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
+                style={{ objectFit: 'cover', objectPosition: 'center' }}
               />
-              {/* Offset accent block */}
-              <div className="absolute -bottom-6 -left-6 w-40 h-40 bg-evergreen hidden lg:block" />
             </div>
           </ScrollReveal>
         </div>
