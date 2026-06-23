@@ -53,8 +53,8 @@ export function EventsSection() {
             const { month, day } = formatDate(event.date)
             const categoryStyle = categoryColors[event.category] ?? 'bg-stone/20 text-stone'
             return (
-              <ScrollReveal key={event.id} delay={0.1 + i * 0.12}>
-                <div className="group bg-ivory border border-stone/10 rounded-[3px] overflow-hidden hover:border-sage/40 hover:shadow-lg transition-all duration-500 hover:-translate-y-1">
+              <ScrollReveal key={event.id} delay={0.1 + i * 0.12} className="h-full">
+                <div className="group h-full flex flex-col bg-ivory border border-stone/10 rounded-[3px] overflow-hidden hover:border-sage/40 hover:shadow-lg transition-all duration-500 hover:-translate-y-1">
                   {/* Date chip header */}
                   <div className="p-6 pb-5 flex items-start gap-5">
                     <div className="flex-shrink-0 text-center bg-evergreen rounded-[2px] px-3 py-2 min-w-[56px]">
@@ -83,8 +83,8 @@ export function EventsSection() {
                       </h3>
                     </div>
                   </div>
-                  <div className="px-6 pb-6">
-                    <p className="text-stone text-sm leading-relaxed mb-5 line-clamp-3">
+                  <div className="px-6 pb-6 flex flex-col flex-1">
+                    <p className="text-stone text-sm leading-relaxed mb-5 line-clamp-3 flex-1">
                       {event.description}
                     </p>
                     {event.registrationUrl && (
