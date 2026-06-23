@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionLabel } from '@/components/ui/SectionLabel'
 
@@ -64,16 +63,24 @@ export function MissionSection() {
             </ScrollReveal>
           </div>
 
-          {/* Image */}
-          <ScrollReveal delay={0.15} className="relative lg:h-full min-h-[480px] lg:min-h-[700px]">
-            <div className="relative h-full w-full">
-              <Image
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1600&q=80"
-                alt="Botanical garden landscape at Mount Auburn Cemetery"
-                fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                style={{ objectFit: 'cover', objectPosition: 'center' }}
-              />
+          {/* Video */}
+          <ScrollReveal delay={0.15} className="relative lg:h-full min-h-[480px] lg:min-h-[700px] flex items-center justify-center bg-cream px-6 lg:px-12 py-12 lg:py-0">
+            <div className="relative w-full max-w-[560px] mx-auto">
+              {/* Soft shadow frame */}
+              <div className="relative rounded-[4px] overflow-hidden shadow-[0_32px_80px_-12px_rgba(34,55,43,0.25)]">
+                <video
+                  src="/auburngif.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-auto block"
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              {/* Decorative brass hairline accent */}
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 border border-brass/30 rounded-[4px] -z-10 hidden lg:block" />
+              <div className="absolute -top-4 -left-4 w-16 h-16 border border-sage/20 rounded-[4px] -z-10 hidden lg:block" />
             </div>
           </ScrollReveal>
         </div>
