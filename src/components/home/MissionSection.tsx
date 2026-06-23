@@ -64,10 +64,34 @@ export function MissionSection() {
           </div>
 
           {/* Video */}
-          <ScrollReveal delay={0.15} className="relative lg:h-full min-h-[480px] lg:min-h-[700px] flex items-center justify-center bg-cream px-6 lg:px-12 py-12 lg:py-0">
-            <div className="relative w-full max-w-[560px] mx-auto">
-              {/* Soft shadow frame */}
-              <div className="relative rounded-[4px] overflow-hidden shadow-[0_32px_80px_-12px_rgba(34,55,43,0.25)]">
+          <ScrollReveal delay={0.15} className="relative lg:h-full min-h-[520px] lg:min-h-[720px] flex items-center justify-center bg-cream px-4 lg:px-8 py-14 lg:py-16">
+            {/* Ambient background glow */}
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{
+                background: 'radial-gradient(ellipse 80% 70% at 60% 50%, rgba(138,154,123,0.13) 0%, rgba(246,241,231,0) 70%)',
+              }}
+            />
+            <div className="relative w-full max-w-[640px] mx-auto">
+              {/* Deep layered shadow behind the card */}
+              <div
+                className="absolute inset-0 rounded-[8px] -z-10"
+                style={{
+                  transform: 'translate(10px, 14px) scale(0.97)',
+                  background: 'rgba(22,38,29,0.18)',
+                  filter: 'blur(28px)',
+                }}
+              />
+              <div
+                className="absolute inset-0 rounded-[8px] -z-10"
+                style={{
+                  transform: 'translate(4px, 6px) scale(0.99)',
+                  background: 'rgba(22,38,29,0.10)',
+                  filter: 'blur(12px)',
+                }}
+              />
+              {/* Video card */}
+              <div className="relative rounded-[8px] overflow-hidden ring-1 ring-evergreen/10">
                 <video
                   src="/auburngif.mp4"
                   autoPlay
@@ -75,12 +99,11 @@ export function MissionSection() {
                   muted
                   playsInline
                   className="w-full h-auto block"
-                  style={{ objectFit: 'cover' }}
                 />
               </div>
-              {/* Decorative brass hairline accent */}
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 border border-brass/30 rounded-[4px] -z-10 hidden lg:block" />
-              <div className="absolute -top-4 -left-4 w-16 h-16 border border-sage/20 rounded-[4px] -z-10 hidden lg:block" />
+              {/* Decorative corner accents */}
+              <div className="absolute -bottom-5 -right-5 w-28 h-28 border border-brass/25 rounded-[6px] -z-10 hidden lg:block" />
+              <div className="absolute -top-5 -left-5 w-20 h-20 border border-sage/20 rounded-[6px] -z-10 hidden lg:block" />
             </div>
           </ScrollReveal>
         </div>
