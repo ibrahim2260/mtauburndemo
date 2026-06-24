@@ -91,7 +91,7 @@ export function Header() {
                       onMouseLeave={() => setExploreOpen(false)}
                     >
                       <button
-                        className={`link-underline text-sm font-medium tracking-wide transition-colors duration-300 flex items-center gap-1 ${
+                        className={`link-underline text-sm font-semibold tracking-wide transition-colors duration-300 flex items-center gap-1 ${
                           scrolled ? 'text-ink' : 'text-cream'
                         }`}
                       >
@@ -129,7 +129,7 @@ export function Header() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`link-underline text-sm font-medium tracking-wide transition-colors duration-300 ${
+                    className={`link-underline text-sm font-semibold tracking-wide transition-colors duration-300 ${
                       scrolled ? 'text-ink' : 'text-cream'
                     }`}
                   >
