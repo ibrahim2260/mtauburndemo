@@ -70,10 +70,10 @@ export function Header() {
                 Mount Auburn Cemetery
               </span>
               <span
-                className={`label mt-0.5 transition-colors duration-300 ${
-                  scrolled ? 'text-brass' : 'text-cream/60'
+                className={`label mt-1 transition-colors duration-300 ${
+                  scrolled ? 'text-brass' : 'text-cream/90'
                 }`}
-                style={{ fontSize: '0.6875rem' }}
+                style={{ fontSize: '0.8rem', letterSpacing: '0.14em' }}
               >
                 est. 1831
               </span>
