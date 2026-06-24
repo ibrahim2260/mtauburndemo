@@ -94,7 +94,7 @@ export function SeasonalHero() {
           >
             {/* Eyebrow */}
             <motion.p
-              className="label text-cream/70 mb-5"
+              className="label mb-5 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-black/25 backdrop-blur-sm text-cream/95 border border-cream/15"
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
